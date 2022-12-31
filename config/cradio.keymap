@@ -20,8 +20,8 @@
 // -----------------
 
 &mt {
-   //  flavor = "tap-preferred";
-   // tapping_term_ms = <200>;
+   flavor = "tap-preferred";
+   tapping_term_ms = <200>;
 };
 
 &sk {
@@ -66,7 +66,7 @@
 		&kp Q &kp W &kp F &mt LCTRL P &kp B     &kp J &kp L  &kp U     &kp Y   &kp SEMI
 		&kp A &kp R &kp S &kp T &kp G           &kp M &kp N  &kp E     &kp I &kp O
 		&kp Z &kp X &kp C &kp D &kp V           &kp K &kp H  &kp COMMA &kp DOT &kp SLASH
-             &lt FNC ENTER &lt NUM BSPC         &lt EXT SPACE &kp LSHIFT
+             &lt FNC ENTER &lt SYM BSPC         &lt EXT SPACE &kp LSHIFT
 		>;
 		};
 
@@ -76,7 +76,7 @@
 		&kp Q &kp W &kp E &mt LCTRL R &kp T           &kp Y &kp U  &kp I     &kp O   &kp P
 		&kp A &kp S &kp D &kp F &kp G           &kp H &kp J  &kp K     &kp L   &kp SEMI
 		&kp Z &kp X &kp C &kp V &kp B           &kp N &kp M  &kp COMMA &kp DOT &kp SLASH
-             &lt FNC ENTER &lt NUM BSPC           &lt EXT SPACE &kp LSHIFT
+             &lt FNC ENTER &lt SYM BSPC           &lt EXT SPACE &kp LSHIFT
 		>;
 		};
 
