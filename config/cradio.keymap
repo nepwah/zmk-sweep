@@ -96,7 +96,7 @@
 		&trans  &trans &trans  &trans  &trans    			        &kp F2  &kp F5 &kp LCTRL &kp LALT &kp DEL
 		&trans  &trans &trans  &trans  &trans    			        &kp TAB &kp LEFT  &kp UP  &kp DOWN   &kp RIGHT
 		&trans  &trans &trans  &trans  &trans    			        &kp HOME &kp END &kp PG_UP &kp PG_DN  &kp BSPC
-					                    &trans &mo SPECIAL       &kp none  &trans
+					                    &trans &mo SPECIAL       &none  &trans
 		>;
 		};
 
