@@ -39,7 +39,15 @@
 					bindings
 						= <&kp LSHIFT &kp RSHIFT &kp LCTRL &kp RCTRL &kp LALT &kp RALT &kp LGUI &kp RGUI>;
 				};
+				eng_kor: eng_kor {
+            label = "ZM_eng_kor";
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings
+                = <&tog QWERTY &kp RALT>;
+			};
 		};
+};
 
     combos {
         compatible = "zmk,combos";
@@ -104,8 +112,8 @@
        		fnc_layer {
 		bindings = <
 		&kp ESC 	&kp LA(GRAVE) &kp SPACE &kp LGUI  &none            &none &kp C_VOL_UP &kp C_NEXT &kp C_BRI_UP &none
-		&kp LC(A)   &kp RALT 	  &kp TAB 	&kp LALT  &kp RALT         &none &kp C_VOL_DN &kp C_PP   &kp C_BRI_DN &none
-		&kp LC(Z)   &kp LC(X) 	  &kp LC(C) &kp LC(V) &tog QWERTY      &none &kp C_MUTE   &kp C_PREV &none 		  &none
+		&kp LC(A)   &kp eng_kor   &kp TAB 	&kp LALT  &none        &none &kp C_VOL_DN &kp C_PP   &kp C_BRI_DN &none
+		&kp LC(Z)   &kp LC(X) 	  &kp LC(C) &kp LC(V) &none      &none &kp C_MUTE   &kp C_PREV &none 		  &none
 											&none 	  &none            &none &none  
 		>;
 		};
