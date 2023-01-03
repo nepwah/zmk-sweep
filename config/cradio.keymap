@@ -47,7 +47,6 @@
                 = <&tog QWERTY &kp RALT>;
 			};
 		};
-};
 
     combos {
         compatible = "zmk,combos";
